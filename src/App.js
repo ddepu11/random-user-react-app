@@ -28,7 +28,7 @@ function App() {
         </div>
         <div className="on-hover flex dob">
           <FaRegCalendarAlt class="icon" />
-          <span>Email</span>
+          <span>Birthday</span>
         </div>
         <div className="on-hover flex location">
           <FaSearchLocation class="icon" />
@@ -40,11 +40,11 @@ function App() {
         </div>
         <div className="on-hover flex password">
           <FaUserShield class="icon" />
-          <span>Mobile No</span>
+          <span>Location</span>
         </div>
       </aside>
       {/* Section */}
-      <section className="section">
+      <section className="section flex">
         <img src="https://i.pravatar.cc/150?img=45" alt="img" />
         <div className="detail flex">
           <h2>This is title</h2>
