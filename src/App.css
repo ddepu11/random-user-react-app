@@ -108,10 +108,34 @@ input:focus {
   padding: 0 00px 0 40px;
 }
 
-.section img {
+.avatar {
   margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  z-index: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   border-radius: 50%;
-  width: 120px;
+}
+
+.avatar::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f044";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  bottom: 12px;
+  right: 2px;
+  background: #696969;
+  display: grid;
+  place-items: center;
+  font-size: 0.8em;
+  border-radius: 50%;
 }
 
 .on-hover {
