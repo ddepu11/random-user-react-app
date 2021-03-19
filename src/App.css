@@ -27,14 +27,26 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 body {
   min-height: 100vh;
-  background: linear-gradient(to right, #000000, #434343);
+  background: url("./images/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   color: white;
+  position: relative;
+  padding: 50px 0;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+body::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 a {
@@ -58,4 +70,44 @@ input {
 button:focus,
 input:focus {
   outline: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, auto));
+  grid-template-areas:
+    "h . . ."
+    "a s s s"
+    "a . . .";
+  row-gap: 50px;
+  background: rgba(221, 221, 221, 0.25);
+  color: #111;
+}
+.header {
+  grid-area: h;
+  padding: 30px 40px 5px;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+}
+
+.aside {
+  grid-area: a;
+  padding: 00px 40px;
+}
+
+.section {
+  grid-area: s;
+}
+.on-hover {
+  justify-content: flex-start;
+  padding: 00px 0px 50px;
+}
+.on-hover .icon {
+  font-size: 1.5em;
+  margin-right: 50px;
+}
+.on-hover span {
+  font-size: 1.3em;
 }
