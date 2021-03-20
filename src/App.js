@@ -78,11 +78,12 @@ function App() {
         <h1>User Profile</h1>
       </header>
 
-      <aside className="aside">
+      <aside className="aside ">
         <div
           className="on-hover  user"
           data-label="name"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaUserAlt className="icon" />
           <span>Name</span>
@@ -91,6 +92,7 @@ function App() {
           className="on-hover  email"
           data-label="email"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaMailBulk className="icon" />
           <span>Email</span>
@@ -99,6 +101,7 @@ function App() {
           className="on-hover  dob"
           data-label="dob"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaRegCalendarAlt className="icon" />
           <span>Birthday</span>
@@ -107,6 +110,7 @@ function App() {
           className="on-hover  location"
           data-label="address"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaSearchLocation className="icon" />
           <span>Location</span>
@@ -115,6 +119,7 @@ function App() {
           className="on-hover  mobile"
           data-label="mobileNo"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaPhone className="icon" />
           <span>Mobile No</span>
@@ -123,6 +128,7 @@ function App() {
           className="on-hover  password"
           data-label="password"
           onMouseOver={handleMouseOver}
+          onClick={handleMouseOver}
         >
           <FaUserShield className="icon" />
           <span>Password</span>
