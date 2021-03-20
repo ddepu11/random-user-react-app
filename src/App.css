@@ -80,7 +80,7 @@ input:focus {
   grid-template-areas:
     "h . . ."
     "a s s s"
-    "a . . .";
+    "a s s s";
   background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 0 0;
@@ -106,6 +106,7 @@ input:focus {
   grid-area: s;
   justify-content: flex-start;
   padding: 0 00px 0 40px;
+  align-self: flex-start;
 }
 
 .avatar {
@@ -173,4 +174,33 @@ img {
   padding-bottom: 10px;
   color: #acacac;
   font-size: 0.86em;
+}
+.inner-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, auto));
+  grid-template-areas:
+    "av dt . ."
+    "rb . . ."
+    "rb . . .";
+  row-gap: 50px;
+}
+
+.avatar {
+  grid-area: av;
+}
+
+.detail {
+  grid-area: dt;
+}
+.random-btn {
+  grid-area: rb;
+  font-size: 1em;
+  text-transform: capitalize;
+  padding: 8px 16px;
+  justify-self: center;
+  align-self: flex-end;
+  background: cornsilk;
+  background: #8b8b8b;
+  color: white;
+  cursor: pointer;
 }

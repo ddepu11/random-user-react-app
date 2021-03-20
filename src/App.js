@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+
 import {
   FaUserAlt,
   FaMailBulk,
@@ -13,6 +14,7 @@ function App() {
   const [person, setPerson] = useState();
   const [title, setTitle] = useState("default");
   const [value, setValue] = useState("default");
+
   const [pic, setPic] = useState(
     "https://randomuser.me/api/portraits/men/43.jpg"
   );
@@ -49,6 +51,8 @@ function App() {
       setPic(large);
       console.log(newPerson);
       setPerson(newPerson);
+      setTitle("name");
+      setValue(person["name"].trim());
     } catch (error) {
       console.log(error);
     }
@@ -124,14 +128,19 @@ function App() {
         </div>
       </aside>
       {/* Section */}
-      <section className="section flex">
+      <section className="section inner-grid">
         <div className="avatar">
           <img src={pic} alt="img" />
         </div>
+
         <div className="detail flex">
           <h2>{value}</h2>
           <p>The {title} of person</p>
         </div>
+
+        <button className="random-btn" onClick={fetchPerson}>
+          Random Person
+        </button>
       </section>
     </div>
   );
