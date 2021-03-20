@@ -79,59 +79,95 @@ function App() {
       </header>
 
       <aside className="aside ">
-        <div
-          className="on-hover  user"
-          data-label="name"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaUserAlt className="icon" />
-          <span>Name</span>
+        <div className="on-hover  user">
+          <FaUserAlt
+            className="icon"
+            data-label="name"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="name"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Name
+          </span>
         </div>
-        <div
-          className="on-hover  email"
-          data-label="email"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaMailBulk className="icon" />
-          <span>Email</span>
+        <div className="on-hover  email">
+          <FaMailBulk
+            className="icon"
+            data-label="email"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="email"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Email
+          </span>
         </div>
-        <div
-          className="on-hover  dob"
-          data-label="dob"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaRegCalendarAlt className="icon" />
-          <span>Birthday</span>
+        <div className="on-hover  dob">
+          <FaRegCalendarAlt
+            className="icon"
+            data-label="dob"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="dob"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Birthday
+          </span>
         </div>
-        <div
-          className="on-hover  location"
-          data-label="address"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaSearchLocation className="icon" />
-          <span>Location</span>
+        <div className="on-hover  location">
+          <FaSearchLocation
+            className="icon"
+            data-label="address"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="address"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Location
+          </span>
         </div>
-        <div
-          className="on-hover  mobile"
-          data-label="mobileNo"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaPhone className="icon" />
-          <span>Mobile No</span>
+        <div className="on-hover  mobile">
+          <FaPhone
+            className="icon"
+            data-label="mobileNo"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="mobileNo"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Mobile No
+          </span>
         </div>
-        <div
-          className="on-hover  password"
-          data-label="password"
-          onMouseOver={handleMouseOver}
-          onClick={handleMouseOver}
-        >
-          <FaUserShield className="icon" />
-          <span>Password</span>
+        <div className="on-hover  password">
+          <FaUserShield
+            className="icon"
+            data-label="password"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          />
+          <span
+            data-label="password"
+            onMouseOver={handleMouseOver}
+            onClick={handleMouseOver}
+          >
+            Password
+          </span>
         </div>
       </aside>
       {/* Section */}
