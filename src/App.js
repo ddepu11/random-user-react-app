@@ -48,6 +48,7 @@ function App() {
         mobileNo: cell,
         password: password,
       };
+
       setPic(large);
       console.log(newPerson);
       setPerson(newPerson);
@@ -79,7 +80,7 @@ function App() {
 
       <aside className="aside">
         <div
-          className="on-hover flex user"
+          className="on-hover  user"
           data-label="name"
           onMouseOver={handleMouseOver}
         >
@@ -87,7 +88,7 @@ function App() {
           <span>Name</span>
         </div>
         <div
-          className="on-hover flex email"
+          className="on-hover  email"
           data-label="email"
           onMouseOver={handleMouseOver}
         >
@@ -95,7 +96,7 @@ function App() {
           <span>Email</span>
         </div>
         <div
-          className="on-hover flex dob"
+          className="on-hover  dob"
           data-label="dob"
           onMouseOver={handleMouseOver}
         >
@@ -103,7 +104,7 @@ function App() {
           <span>Birthday</span>
         </div>
         <div
-          className="on-hover flex location"
+          className="on-hover  location"
           data-label="address"
           onMouseOver={handleMouseOver}
         >
@@ -111,7 +112,7 @@ function App() {
           <span>Location</span>
         </div>
         <div
-          className="on-hover flex mobile"
+          className="on-hover  mobile"
           data-label="mobileNo"
           onMouseOver={handleMouseOver}
         >
@@ -119,7 +120,7 @@ function App() {
           <span>Mobile No</span>
         </div>
         <div
-          className="on-hover flex password"
+          className="on-hover  password"
           data-label="password"
           onMouseOver={handleMouseOver}
         >

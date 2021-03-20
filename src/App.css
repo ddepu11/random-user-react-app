@@ -36,8 +36,9 @@ body {
   background-repeat: no-repeat;
   color: white;
   position: relative;
-  padding: 50px 0;
+  padding: 50px 50px;
 }
+
 body::before {
   content: "";
   position: absolute;
@@ -54,9 +55,11 @@ a {
   text-decoration: none;
   color: white;
 }
+
 ul {
   list-style-type: none;
 }
+
 button {
   border: 0;
 }
@@ -64,9 +67,11 @@ button {
 button:hover {
   cursor: pointer;
 }
+
 input {
   border: 0;
 }
+
 button:focus,
 input:focus {
   outline: 0;
@@ -97,7 +102,7 @@ input:focus {
 
 .aside {
   grid-area: a;
-  padding: 40px 50px 0;
+  padding: 40px 40px 0;
   color: #dbdbdb;
   border-right: 1px solid #8b8b8b;
 }
@@ -142,6 +147,9 @@ img {
 .on-hover {
   justify-content: flex-start;
   padding: 00px 0px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+  column-gap: 20px;
 }
 
 .on-hover:hover {
@@ -150,7 +158,6 @@ img {
 
 .on-hover .icon {
   font-size: 1.4em;
-  margin-right: 50px;
 }
 
 .on-hover span {
@@ -161,6 +168,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
 }
+
 .detail h2 {
   text-transform: capitalize;
   letter-spacing: 3px;
@@ -168,6 +176,7 @@ img {
   color: #e9e9e9;
   font-size: 1.3em;
 }
+
 .detail p {
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -175,6 +184,7 @@ img {
   color: #acacac;
   font-size: 0.86em;
 }
+
 .inner-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(100px, auto));
@@ -192,6 +202,7 @@ img {
 .detail {
   grid-area: dt;
 }
+
 .random-btn {
   grid-area: rb;
   font-size: 1em;
@@ -203,4 +214,8 @@ img {
   background: #8b8b8b;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 910px) {
+    
 }
