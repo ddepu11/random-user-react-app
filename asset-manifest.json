@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/random-user-react-app/static/css/main.795227b6.chunk.css",
-    "main.js": "/random-user-react-app/static/js/main.e2bf70f2.chunk.js",
-    "main.js.map": "/random-user-react-app/static/js/main.e2bf70f2.chunk.js.map",
+    "main.css": "/random-user-react-app/static/css/main.fe81c581.chunk.css",
+    "main.js": "/random-user-react-app/static/js/main.a0f67c16.chunk.js",
+    "main.js.map": "/random-user-react-app/static/js/main.a0f67c16.chunk.js.map",
     "runtime-main.js": "/random-user-react-app/static/js/runtime-main.4ecbe656.js",
     "runtime-main.js.map": "/random-user-react-app/static/js/runtime-main.4ecbe656.js.map",
     "static/js/2.cbc9be91.chunk.js": "/random-user-react-app/static/js/2.cbc9be91.chunk.js",
     "static/js/2.cbc9be91.chunk.js.map": "/random-user-react-app/static/js/2.cbc9be91.chunk.js.map",
     "index.html": "/random-user-react-app/index.html",
-    "static/css/main.795227b6.chunk.css.map": "/random-user-react-app/static/css/main.795227b6.chunk.css.map",
+    "static/css/main.fe81c581.chunk.css.map": "/random-user-react-app/static/css/main.fe81c581.chunk.css.map",
     "static/js/2.cbc9be91.chunk.js.LICENSE.txt": "/random-user-react-app/static/js/2.cbc9be91.chunk.js.LICENSE.txt",
     "static/media/App.css": "/random-user-react-app/static/media/bg.09970ff0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ecbe656.js",
     "static/js/2.cbc9be91.chunk.js",
-    "static/css/main.795227b6.chunk.css",
-    "static/js/main.e2bf70f2.chunk.js"
+    "static/css/main.fe81c581.chunk.css",
+    "static/js/main.a0f67c16.chunk.js"
   ]
 }
