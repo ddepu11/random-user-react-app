@@ -50,7 +50,6 @@ function App() {
       };
 
       setPic(large);
-      console.log(newPerson);
       setPerson(newPerson);
       setTitle("name");
       setValue(person["name"].trim());
